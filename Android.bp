@@ -45,7 +45,11 @@ rust_library {
     cargo_pkg_version: "0.4.17",
     srcs: ["src/lib.rs"],
     edition: "2015",
-    features: ["std"],
+    features: [
+        "max_level_trace",
+        "release_max_level_off",
+        "std",
+    ],
     cfgs: [
         "atomic_cas",
         "has_atomics",
