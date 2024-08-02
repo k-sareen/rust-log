@@ -47,7 +47,7 @@ rust_library {
     edition: "2015",
     features: [
         "max_level_trace",
-        "release_max_level_off",
+        // "release_max_level_off",
         "std",
     ],
     cfgs: [
